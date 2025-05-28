@@ -1,0 +1,27 @@
+input[required]{
+  border: 2px solid red;
+}
+
+input[type= "password"] {
+  background-color: light gray; 
+}
+
+a[href^= "https"] {
+  color: green;
+}
+
+a[href $= ".pdf"] {
+  color: pink;
+}
+
+a[href *= "exemplo"] {
+  font-weight: bold;
+}
+
+div[class ~= "ativo"] {
+  background-color: light blue;
+}
+
+P[lang |= "pt"] {
+  color: green;
+}
