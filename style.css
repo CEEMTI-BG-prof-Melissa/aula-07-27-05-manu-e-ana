@@ -3,7 +3,7 @@ input[required]{
 }
 
 input[type= "password"] {
-  background-color: light gray; 
+  background-color: lightgray; 
 }
 
 a[href^= "https"] {
@@ -19,7 +19,7 @@ a[href *= "exemplo"] {
 }
 
 div[class ~= "ativo"] {
-  background-color: light blue;
+  background-color: lightblue;
 }
 
 P[lang |= "pt"] {
